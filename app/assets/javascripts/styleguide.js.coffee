@@ -43,6 +43,6 @@ jQuery(document).ready ->
       $nav.removeClass "subnav-fixed"
   processScroll()
 
-  # $.localScroll offset: -80, lazy: true, hash: true # http://flesler.blogspot.com/2007/10/jquerylocalscroll-10.html
+  $.localScroll offset: -80, lazy: true, hash: true # http://flesler.blogspot.com/2007/10/jquerylocalscroll-10.html
 
   true
