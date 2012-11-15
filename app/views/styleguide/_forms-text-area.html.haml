@@ -1,0 +1,47 @@
+.row-fluid
+  .span12
+    .row-fluid
+      .span6
+        = form_tag("/styleguide", :id => "basicform-structure") do
+          %h3 Text Areas
+          = label_tag 'notes' do
+            Your Notes and Comments
+          = text_area_tag "notes","Iriure quis iriure eodem litterarum consequat. Tincidunt nihil tation consequat iusto ut. Claram non laoreet quarta clari insitam. Claram eleifend vel eu iusto assum.Processus mirum ut exerci facilisi videntur."
+      .span6
+        .row-fluid.code-row
+          .span12
+            .row-fluid
+              .span8
+                %h3 HTML
+              .span4
+                .pull-right.show-code-toggle.positive-action{:data => {:toggle => "collapse", :target => "#form-text-area_html"}}
+                  %i.icon.icon-eye-open
+                  Show Code 
+            .row-fluid
+              #form-text-area_html.code-collapse.in.span12  
+                %pre
+                  = preserve do
+                    :escaped
+                      <label for="notes">
+                        Your Notes and Comments
+                      </label>
+                      <textarea style="height: 164px;" id="notes" name="notes">Iriure quis iriure eodem litterarum consequat. Tincidunt nihil tation consequat iusto ut. Claram non laoreet quarta clari insitam. Claram eleifend vel eu iusto assum. Processus mirum ut exerci facilisi videntur.</textarea>
+
+        .row-fluid.code-row
+          .span12
+            .row-fluid
+              .span8
+                %h3 Haml
+              .span4
+                .pull-right.show-code-toggle.positive-action{:data => {:toggle => "collapse", :target => "#form-text-area_haml"}}
+                  %i.icon.icon-eye-open
+                  Show Code 
+            .row-fluid
+              #form-text-area_haml.code-collapse.in.span12  
+                %pre
+                  = preserve do
+                    :escaped
+                      = label_tag 'notes' do
+                        Your Notes and Comments
+                      = text_area_tag "notes","Iriure quis iriure eodem litterarum consequat. Tincidunt nihil tation consequat iusto ut. Claram non laoreet quarta clari insitam. Claram eleifend vel eu iusto assum. Processus mirum ut exerci facilisi videntur."
+                        

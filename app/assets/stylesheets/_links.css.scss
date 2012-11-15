@@ -1,0 +1,202 @@
+
+/****************************/
+/* COLOR CODING ACTION LINKS */
+.positive-action{
+  color:$positive-action-color;
+  &:visited{
+    color:$positive-action-color;
+  };
+  &:hover {
+    color:$positive-action-color_hover;
+  }
+}  
+.negative-action{
+  color:$negative-action-color;
+  &:visited{
+    color:$negative-action-color;
+  };
+  &:hover {
+    color:$negative-action-color_hover;
+  }
+}
+// .neutral-action{
+//   color:$neutral-action-color;
+//   &:visited{ 
+//     color:$neutral-action-color;
+//   };
+//   &:hover {
+//     color:$neutral-action-color_hover;
+//   }
+// }
+/*****************************/
+/* LINKS *********************/
+
+.pointer{
+  white-space:nowrap;
+  position:relative;
+  &:after{
+    width:0;height:0;
+    display:inline-block;
+    background-color:transparent;
+    content:"";
+    border-style:solid;
+    border-width:.4em;
+    margin-left:.3em;
+  }
+  &.right{
+    &:after{
+      position:absolute;
+      top:30%;
+      border-top-color:transparent;
+      border-right-color:transparent;
+      border-bottom-color:transparent;
+    }
+    &.positive-action {
+      &:after {
+        border-color:transparent transparent transparent $positive-action-color;
+      }
+      &:hover{
+        &:after{
+          border-color:transparent transparent transparent $positive-action-color_hover;     
+        }
+      }
+    }
+    // &.neutral-action {
+    //   &:after {
+    //     border-color:transparent transparent transparent $neutral-action-color;
+    //   }
+    //   &:hover{
+    //     &:after{
+    //       border-color:transparent transparent transparent $neutral-action-color_hover;     
+    //     }
+    //   }
+    // }
+    &.negative-action {
+      &:after {
+        border-color:transparent transparent transparent $negative-action-color;
+      }
+      &:hover{
+        &:after{
+          border-color:transparent transparent transparent $negative-action-color_hover;     
+        }
+      }
+    }
+  }
+  &.up{
+
+    &:after{
+      border-top-color:transparent;
+      border-right-color:transparent;
+      border-left-color:transparent;
+    }
+    &.positive-action {
+      &:after {
+        border-color:transparent transparent $positive-action-color transparent;
+      }
+      &:hover{
+        &:after{
+          border-color:transparent transparent $positive-action-color_hover transparent;     
+        }
+      }
+    }
+    // &.neutral-action {
+    //   &:after {
+    //     border-color:transparent transparent $neutral-action-color transparent;
+    //   }
+    //   &:hover{
+    //     &:after{
+    //       border-color:transparent transparent $neutral-action-color_hover transparent;     
+    //     }
+    //   }
+    // }
+    &.negative-action {
+      &:after {
+        border-color:transparent transparent $negative-action-color transparent;
+      }
+      &:hover{
+        &:after{
+          border-color:transparent transparent $negative-action-color_hover transparent;     
+        }
+      }
+    }
+  }
+  &.down{
+    position:relative;
+    &:after{
+      position:absolute;
+      top:.3em;
+      border-left-color:transparent;
+      border-right-color:transparent;
+      border-bottom-color:transparent;
+    }
+    &.positive-action {
+      &:after {
+        border-color:$positive-action-color transparent transparent transparent;
+      }
+      &:hover{
+        &:after{
+          border-color:$positive-action-color_hover transparent transparent transparent;     
+        }
+      }
+    }
+    // &.neutral-action {
+    //   &:after {
+    //     border-color:$neutral-action-color  transparent transparent transparent;
+    //   }
+    //   &:hover{
+    //     &:after{
+    //       border-color:$neutral-action-color_hover transparent transparent transparent;     
+    //     }
+    //   }
+    // }
+    &.negative-action {
+      &:after {
+        border-color:$negative-action-color transparent transparent transparent;
+      }
+      &:hover{
+        &:after{
+          border-color:$negative-action-color_hover transparent transparent transparent;     
+        }
+      }
+    }
+  }
+  &.left{
+    &:after{
+      border-top-color:transparent;
+      border-left-color:transparent;
+      border-bottom-color:transparent;
+      
+    }
+    &.positive-action {
+      &:after {
+        border-color:transparent $positive-action-color transparent transparent;
+      }
+      &:hover{
+        &:after{
+          border-color:transparent $positive-action-color_hover transparent transparent;     
+        }
+      }
+    }
+    // &.neutral-action {
+    //   &:after {
+    //     border-color:transparent $neutral-action-color transparent transparent;
+    //   }
+    //   &:hover{
+    //     &:after{
+    //       border-color:transparent $neutral-action-color_hover transparent transparent;     
+    //     }
+    //   }
+    // }
+    &.negative-action {
+      &:after {
+        border-color:transparent $negative-action-color transparent transparent;
+      }
+      &:hover{
+        &:after{
+          border-color:transparent $negative-action-color_hover transparent transparent;     
+        }
+      }
+    }
+  }
+    
+}

@@ -1,0 +1,42 @@
+
+/*********************/
+/* COLOR VARIABLES */
+$gray: #424242;
+$white: #fff;
+$red: #ff0000;
+$blue: #007DC9;  
+$green:#66A435;
+
+$positive-action-color: $green;
+$positive-action-color_hover: darken($positive-action-color,10%); 
+$negative-action-color: $red; 
+$negative-action-color_hover: darken($negative-action-color,10%);
+
+
+/***********************/
+/* COLOR IN CONTEXT */
+
+//Text
+$text : $gray; //Default text color, assumed on lighter background
+$textOnDark: lighten($gray,30%); //Text color when placed on darker background, such as in a sidebar, or a header.
+
+//Links
+$link: $blue;
+$link_hover: darken($link,30%);
+$linkOnDark: lighten($gray,30%);
+$linkOnDark_hover: lighten($linkOnDark,30%);
+
+//Selected Text
+$selectedText : $white; 
+$selectedBG : $blue; 
+
+//buttons
+$buttonText : $white;
+$buttonBG : $blue;
+$buttonBG_hover : darken($buttonBG,10%);
+
+
+//Structure
+$baseBG : $white; //The base background color that is beneath everything else.
+$sectionBG : #f5f5f5; //Background color for sections of content within the page.
+$sectionBGDarkened : darken($sectionBG,40%); //Background color for smaller dark sections of content within the page.

@@ -1,0 +1,42 @@
+// CSS Styles for the Adfitech Rebuild
+
+//Web Fonts from Google
+//Currently using Crimson Text for normal text and Kameron for headlines
+@import url(http://fonts.googleapis.com/css?family=Kameron:700|Crimson+Text:400,700);
+
+@import "colors"; // all color variables will be defined here.
+
+// Defaults for compass
+$default-text-shadow-color: rgba(gray, 0.6);
+$default-text-shadow-blur: 3px;
+$default-text-shadow-v-offset: 1px;
+
+@import "compass/css3";
+
+
+
+
+//Basic Styles
+html, body, p, input, button, select, textarea, kbd {
+ font-family: 'Crimson Text', serif;
+ font-size:16px;
+}
+
+html, body {
+ color: $text;
+ background-color: $baseBG;
+ 
+}
+h1,h2,h3,h4,h5 {
+  font-family: 'Kameron', serif;
+  font-weight:700;
+  color:darken($text,10%);
+  @include single-text-shadow;
+}
+
+
+// Bring in the other sections of the stylesheet
+@import "links";
+@import "buttons";
+@import "forms";
+@import "header";

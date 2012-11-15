@@ -1,0 +1,75 @@
+.row-fluid
+  .span12
+    .row-fluid
+      .span12
+        = form_tag("/styleguide", :id => "basicform") do
+          %h2 An Example Form
+          .row-fluid
+            .span6
+              = field_set_tag "Your Name" do
+                = label_tag 'first_name' do
+                  First Name
+                = text_field_tag 'first_name'
+                = label_tag 'last_name' do
+                  Last Name
+                = text_field_tag 'last_name'
+              = field_set_tag "Your Contact Information" do
+                = label_tag 'email' do
+                  Email
+                = email_field_tag 'email', nil, :placeholder => 'you@yourcompany.com'
+                = label_tag 'phone' do
+                  Phone Number
+                = phone_field_tag 'phone', nil,{:placeholder => '(###) ###-####'}
+            .span6
+              = field_set_tag "Some Options" do
+                .row-fluid.form-row
+                  .span12
+                    = label_tag 'colors' do
+                      What is your Favorite Color?
+                    = select_tag "colors", "<option>Red</option><option>Green</option><option>Blue</option>".html_safe,{:class => "span4"}  
+                = field_set_tag 'How often would you like to receive our newsletter?', :class => 'form-row' do
+                  = label_tag 'receive_email_weekly', :class => 'radio' do
+                    = radio_button_tag 'receive_email','weekly'
+                    Weekly
+                  = label_tag 'receive_email_daily', :class => 'radio' do
+                    = radio_button_tag 'receive_email','daily'
+                    Daily
+                  = label_tag 'receive_email_never', :class => 'radio' do
+                    = radio_button_tag 'receive_email','never', true
+                    Never  
+                  .help-block
+                    %p
+                      This is 
+                      %code.inline .help-block
+                      text. Phosfluorescently maintain long-term high-impact information and corporate benefits. Authoritatively leverage existing client-based testing procedures without enterprise content.
+                = field_set_tag "Do you agree to our very complicated and legal eula?",:class => 'form-row' do
+                  = label_tag 'eula', :class => 'checkbox' do
+                    = check_box_tag 'eula', 'accepted', false
+                    I agree to your very complicated and legal EULA.
+                  .help-block
+                    %p
+                      This is
+                      %code.inline .help-block
+                      text. Phosfluorescently maintain long-term high-impact information and corporate benefits. Conveniently visualize cross-media human capital rather than optimal customer service. 
+                    %p
+                      Proactively redefine out-of-the-box intellectual capital for state of the art internal or "organic" sources.
+                = label_tag 'disabled', :class => 'form-row disabled' do
+                  = check_box_tag 'disabled', 'disabled', false, :disabled => true
+                  This checkbox is disabled.
+              
+          .row-fluid
+            .span12
+              = field_set_tag "Notes" do
+                %div.control-group
+                  %div.controls
+                    = label_tag 'notes' do
+                      Your Notes and Comments
+                      = text_area_tag "notes","These are some notes that you left about something on the site.Suspendisse potenti. Duis sed ante metus, molestie porttitor tellus. Ut lorem nunc, porttitor in interdum ut, volutpat in eros. Maecenas porttitor nisl ac massa lobortis adipiscing.",:class => "span11"
+          .row-fluid
+            .span12
+              .form-actions
+                = submit_tag 'Submit', :class => 'btn positive-action'
+                = button_tag(:class => 'btn negative-action') do
+                  Cancel
+     
+  

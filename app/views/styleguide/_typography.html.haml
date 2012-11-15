@@ -1,0 +1,90 @@
+%section.sg-section
+  %header
+    %h1.sg-section-title Typography
+    %p 
+      All things Textual. 
+      %em  See Also:
+      = link_to "Twitter Bootstrap > #typography", "http://twitter.github.com/bootstrap/base-css.html#typography"
+  .row-fluid
+    .span12
+      .row-fluid
+        .span12
+          .well
+            %h2  Fonts
+            %ul
+              %li
+                =link_to "Crimson Text and Kameron, from Google Web Fonts", "http://www.google.com/webfonts#UsePlace:use/Collection:Kameron:700|Crimson+Text:400,700"
+            %h3 Usage:
+            %pre
+              = preserve do
+                :escaped
+                  @import url(http://fonts.googleapis.com/css?family=Kameron:700|Crimson+Text:400,700);
+                  
+
+                  html, body, p, input, button, select, textarea, kbd {
+                   font-family: 'Crimson Text', serif;
+                   font-size:16px;
+                  } 
+                  
+
+                  h1,h2,h3,h4,h5 {
+                    font-family: 'Kameron', serif;
+                    font-weight:700;
+                    color:darken($text,10%);
+                  }  
+        .row-fluid
+          .span12
+            .row-fluid
+              .span6
+                .well
+                  %h1 H1 Header
+                  %h2 H2 Header
+                  %h3 H3 Header
+                  %h4 H4 Header
+                  %h5 H5 Header
+                  %h6 H6 Header
+              .span6
+                .well
+                  %ul
+                    %li Some Basic normal body text
+                    %li 
+                      Bold - 
+                      %b Lorem ipsum dolor
+                    %li 
+                      Strong - 
+                      %strong Lorem ipsum dolor
+                    %li 
+                      Italic - 
+                      %i Lorem ipsum dolor
+                    %li 
+                      Emphasis - 
+                      %em Lorem ipsum dolor
+        .row-fluid              
+          .span12
+            .well
+              %h2 Some Other Text Examples
+              %h3 Main Content Text in paragraphs. 
+              %p Conveniently integrate orthogonal relationships with enterprise infomediaries. Holisticly whiteboard synergistic outsourcing and magnetic e-markets. Professionally revolutionize an expanded array of infrastructures and premium meta-services. 
+              %p Conveniently recaptiualize stand-alone total linkage via value-added e-commerce. Objectively generate 2.0 partnerships and long-term high-impact ideas. Continually facilitate mission-critical e-commerce before wireless e-markets.
+              %h3 Lists
+              .row
+                .span3
+                  %ul
+                    %li Unordered List Items
+                    %li Unordered List Items
+                    %li Unordered List Items
+                    %li Unordered List Items
+
+                .span3
+                  %ol
+                    %li Ordered List Items
+                    %li Ordered List Items
+                    %li Ordered List Items
+                    %li Ordered List Items
+                .span3
+                  %dl
+                    %dt A definition Term
+                    %dd A definition definition
+                    %dt A definition Term
+                    %dd A definition definition
+  %footer

@@ -1,0 +1,1178 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gra",
+				"grayLightened"
+			],
+			[
+				"FMI",
+				"FMIBlue"
+			],
+			[
+				"upload_p",
+				"upload_package-tools"
+			],
+			[
+				"upload",
+				"uploaded_by"
+			],
+			[
+				"countsS",
+				"countsSorted"
+			],
+			[
+				"cou",
+				"countsSorted"
+			],
+			[
+				"all",
+				"all"
+			],
+			[
+				"type",
+				"typeBox"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"ig",
+				"ignore"
+			],
+			[
+				"cha",
+				"chartBox"
+			],
+			[
+				"ty",
+				"typeBox"
+			],
+			[
+				"ss",
+				"ssBarChart"
+			],
+			[
+				"left",
+				"leftMargin"
+			],
+			[
+				"leftPer",
+				"leftPercentage"
+			],
+			[
+				"failed",
+				"failedPercentage"
+			],
+			[
+				"ignored",
+				"ignoredPercentage"
+			],
+			[
+				"proc",
+				"processed"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"labelT",
+				"labelTop"
+			],
+			[
+				"lop",
+				"loopnum"
+			],
+			[
+				"loop",
+				"loopnum"
+			],
+			[
+				"cont",
+				"containerWidt"
+			],
+			[
+				"conta",
+				"containerHeight"
+			],
+			[
+				"label",
+				"labelTop"
+			],
+			[
+				"la",
+				"labelLeft"
+			],
+			[
+				"total",
+				"totalHeight"
+			],
+			[
+				"containerHe",
+				"containerHeight"
+			],
+			[
+				"contain",
+				"containerWidth"
+			],
+			[
+				"container",
+				"containerheight"
+			],
+			[
+				"center",
+				"centerpoin"
+			],
+			[
+				"ar",
+				"array"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"text-o",
+				"text-overflow	zen:css_properties"
+			],
+			[
+				"error_",
+				"error_message"
+			],
+			[
+				"uplo",
+				"upload_package"
+			],
+			[
+				"package",
+				"package_container"
+			],
+			[
+				"displ",
+				"display"
+			],
+			[
+				"wid",
+				"width:75"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"content",
+				"content-box"
+			],
+			[
+				"border",
+				"border-bottom	zen:css_properties"
+			],
+			[
+				"line",
+				"line-height	zen:css_properties"
+			],
+			[
+				"lin",
+				"line-height	zen:css_properties"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"extrace",
+				"extracted_valid"
+			],
+			[
+				"complet",
+				"completed"
+			],
+			[
+				"position",
+				"position:absolute"
+			],
+			[
+				"bootStrap",
+				"bootstrapTrigger"
+			],
+			[
+				"data",
+				"data-bind"
+			],
+			[
+				"t",
+				"twitter"
+			],
+			[
+				"for",
+				"forof	Object Comprehension"
+			],
+			[
+				"extracted_files",
+				"extracted_files-header"
+			],
+			[
+				"extract",
+				"extracted_files-container"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"extracted_file",
+				"extracted_file-loan_number"
+			],
+			[
+				"file",
+				"file"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"fmi",
+				"fmi-working-spinner"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ac_ma",
+				"ac_max_h"
+			],
+			[
+				"ac",
+				"ac_min"
+			],
+			[
+				"text",
+				"textOnDark"
+			],
+			[
+				"FM",
+				"FMIGreen"
+			],
+			[
+				"message",
+				"message-body"
+			],
+			[
+				"conversation",
+				"conversations-container"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"custom",
+				"CUSTOM"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/CoffeeScript/Commands/CoffeeScript.sublime-build",
+	"command_palette":
+	{
+		"height": 246.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"upgr",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"git commit ",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"p i",
+				"Package Control: Install Package"
+			],
+			[
+				"pack ",
+				"Package Control: Install Package"
+			],
+			[
+				"b",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"pb",
+				"Preferences: Browse Packages"
+			],
+			[
+				"p",
+				"Package Control: Discover Packages"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"package remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packrem",
+				"Package Control: Remove Package"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: overflow: type"
+			]
+		],
+		"width": 560.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/chad/Documents/workspace/fmi.com/Gemfile",
+		"/Users/chad/Documents/workspace/adfitech-rebuild/Gemfile",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/javascripts/dashboard.js.coffee",
+		"/Users/chad/Documents/workspace/fmi.com/app/views/dashboards/index.html.haml",
+		"/Users/chad/Documents/workspace/fmi.com/app/models/stats/failures_by_seller_servicer.rb",
+		"/Users/chad/Documents/workspace/fmi.com/app/views/styleguide/index.html.haml",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/stylesheets/_uploads.css.scss",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/stylesheets/_colors.css.scss",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/stylesheets/_header.css.scss",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/templates/uploads/upload.html.haml",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/templates/uploads/index.html.haml",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/javascripts/uploads/app/controllers/upload_index.js.coffee",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/javascripts/jquery-upload/jquery.fileupload-ui.js.coffee",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/javascripts/application.js",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/javascripts/uploads/uploads.js",
+		"/Users/chad/Documents/workspace/fmi.com/.git/MERGE_MSG",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/stylesheets/styles.css.scss",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/stylesheets/_dashboard.css.scss",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/templates/uploads/package.html.haml",
+		"/Users/chad/Documents/workspace/fmi.com/app/models/stats/uploads_by_state.rb",
+		"/Users/chad/Documents/workspace/fmi.com/config/routes.rb",
+		"/Users/chad/Documents/workspace/fmi.com/app/controllers/api/v1/stats_controller.rb",
+		"/Users/chad/Desktop/barchartOLD.js.coffeescript",
+		"/Users/chad/Documents/workspace/fmi.com/app/controllers/dashboards_controller.rb",
+		"/Users/chad/Desktop/dashboard-date-old",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/stylesheets/_circles.css.scss",
+		"/Users/chad/Documents/workspace/fmi.com/app/decorators/transition_decorator.rb",
+		"/Users/chad/Documents/workspace/fmi.com/app/views/loans/show.html.haml",
+		"/Users/chad/.bashrc",
+		"/Users/chad/Documents/workspace/fmi.com/app/models/stats.rb",
+		"/Users/chad/Documents/workspace/fmi.com/app/views/styleguide/_forms-radio.html.haml",
+		"/Users/chad/Documents/workspace/fmi.com/app/views/uploads/index.html.haml",
+		"/Users/chad/Documents/workspace/fmi.com/lib/exceptions/package_level_errors.rb",
+		"/Users/chad/Documents/workspace/fmi.com/.git/COMMIT_EDITMSG",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/javascripts/uploads/app/upload_directives.js.coffee",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/javascripts/styleguide.js.coffee",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/javascripts/uploads/uploads_ui.js.coffee",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/javascripts/uploads/app/upload_controllers.js.coffee",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/javascripts/global/global.js.coffee.erb",
+		"/Users/chad/Documents/workspace/fmi.com/app/views/styleguide/_forms-text-area.html.haml",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/stylesheets/_loans.css.scss",
+		"/Users/chad/Documents/workspace/fmi.com/app/views/loans/index.html.haml",
+		"/Users/chad/Documents/workspace/fmi.com/config/initializers/kaminari_config.rb",
+		"/Users/chad/Desktop/loan info.txt",
+		"/Users/chad/Desktop/package items.txt",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/stylesheets/_buttons.css.scss",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/javascripts/loans.js.coffee",
+		"/Users/chad/Documents/workspace/fmi.com/app/views/users/index.html.haml",
+		"/Users/chad/Desktop/img-test.html",
+		"/Users/chad/Desktop/pacakgeold.html.haml",
+		"/Users/chad/Documents/workspace/trading_desk/.git/MERGE_MSG",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/templates/uploads/paginator.html.haml",
+		"/Users/chad/Documents/workspace/fmi.com/app/views/layouts/application.html.haml",
+		"/Users/chad/Desktop/old-dashboard.html.haml",
+		"/Users/chad/Documents/workspace/fmi.com/app/views/styleguide/_upload.html.haml",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/stylesheets/styleguide.css.scss",
+		"/Users/chad/Library/Application Support/Sublime Text 2/Packages/User/BracketHighlighter.sublime-settings",
+		"/Users/chad/Library/Application Support/Sublime Text 2/Packages/BracketHighlighter/BracketHighlighter.sublime-settings",
+		"/Users/chad/Documents/workspace/fmi.com/app/views/dashboards/show.html.haml",
+		"/Users/chad/Documents/workspace/fmi.com/app/views/dashboards/edit.html.haml",
+		"/Users/chad/Documents/workspace/fmi.com/fmi.sublime-workspace",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/stylesheets/IE7.css",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/templates/uploads/associate.html.haml",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/templates/uploads/bubble.html.haml",
+		"/Users/chad/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/chad/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/chad/Documents/workspace/fmi.com/app/views/home/index.html.haml",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/stylesheets/uniform.default.css.scss",
+		"/Users/chad/Desktop/directive-sample.js.coffee",
+		"/Users/chad/Desktop/uploads-OLD.html",
+		"/Users/chad/Desktop/uploads-NEW-TEMP.html.haml",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/javascripts/uploads/app/directive-sample.js.coffee",
+		"/Users/chad/Documents/workspace/trading_desk/app/assets/stylesheets/_messages.css.scss",
+		"/Users/chad/Documents/workspace/fmi.com/.gitignore",
+		"/Users/chad/Documents/workspace/fmi.com/.rvmrc",
+		"/Users/chad/Documents/workspace/trading_desk/app/assets/stylesheets/_buttons.css.scss",
+		"/Users/chad/Desktop/CSS Style Guide.md",
+		"/Users/chad/Library/Application Support/Sublime Text 2/Packages/User/Git.sublime-settings",
+		"/Users/chad/Documents/workspace/fmi.com/app/assets/loans.css.scss",
+		"/Users/chad/Documents/workspace/fmi/fmi.com/app/assets/stylesheets/_colors.css.scss",
+		"/Users/chad/Documents/workspace/fmi/fmi.com/app/assets/stylesheets/_uploads.css.scss",
+		"/Users/chad/Documents/workspace/fmi/fmi.com/app/assets/templates/uploads/index.html.haml",
+		"/Users/chad/Documents/workspace/fmi/fmi.com/app/assets/stylesheets/_buttons.css.scss",
+		"/Users/chad/Documents/workspace/fmi/fmi.com/app/assets/javascripts/uploads/app/upload_controllers.js.coffee",
+		"/Users/chad/Documents/workspace/fmi/fmi.com/app/controllers/uploads_controller.rb",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/views/uploads/index.html.haml",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/.git/COMMIT_EDITMSG",
+		"/Users/chenderson/Desktop/FMI OLD/uploads_ui.js.coffee",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/assets/stylesheets/styles.css.scss",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/assets/stylesheets/_uploads.css.scss",
+		"/Users/chenderson/Desktop/new.old.fmi.html",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/models/upload_package.rb",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/assets/javascripts/uploads/app/upload_controllers.js.coffee",
+		"/Users/chenderson/Documents/workspace/trading_desk/app/views/layouts/authenticated-responsive.html.haml",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/views/layouts/application.html.haml",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/config/routes.rb",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/views/uploads/new.html.haml",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/assets/javascripts/uploads/view_model.js.orig",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/views/devise/sessions/new.html.haml",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/Gemfile",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/assets/javascripts/uploads.js.coffee",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/tmp/cache/sass/7bf373034478a8cd84b4e104d7246b5194bed1eb/uploads.css.scssc",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/views/loans/index.html.haml",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/assets/javascripts/uploads/view_model.js",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/views/devise/_links.erb",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/assets/javascripts/global/uploads.js",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/controllers/pages_controller.rb",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/views/home/index.html.haml",
+		"/Users/chenderson/Desktop/fmi static pages/about.html",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/views/devise/_links.haml",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/controllers/advanced_dashboard_controller.rb",
+		"/Users/chenderson/Desktop/fmi static pages/index.html",
+		"/Users/chenderson/Desktop/fmi static pages/support.html",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/views/pages/contact.html.haml",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/assets/stylesheets/pages.css.scss",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/views/pages/about.html.haml",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/assets/stylesheets/home.css.scss",
+		"/Users/chenderson/Desktop/jstemp",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/assets/javascripts/styleguide.js.coffee",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/assets/stylesheets/_header.css.scss",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/vendor/assets/javascripts/modernizr.js",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/vendor/assets/stylesheets/jquery.fileupload-ui.css",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/vendor/assets/javascripts/jquery-upload/jquery.fileupload-ui.js",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/assets/stylesheets/_buttons.css.scss",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/jobs/identify_file.rb",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/app/assets/stylesheets/_colors.css.scss",
+		"/Users/chenderson/Desktop/uploadsjs-temp.coffee",
+		"/Users/chenderson/Documents/workspace/fmi/fmi.com/vendor/assets/javascripts/jquery-upload/support/load-image.min.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"/Users/chenderson/Documents/workspace/trading_desk"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"px",
+			"error",
+			"state",
+			"stage",
+			"package-container",
+			"pretty_datetime",
+			".label",
+			"label",
+			"console",
+			" console",
+			"table",
+			"fileTools",
+			"tools",
+			"['",
+			"data[0]",
+			"data",
+			"uploads_by_state",
+			"verallStats['total']",
+			"ignored",
+			"'20%'",
+			".append",
+			"class='countLabel' ",
+			"typeBox.append",
+			"labelText =",
+			"labelText = ",
+			"</div>\"",
+			"#{count} ",
+			".append ' ",
+			"type",
+			"count",
+			"count +",
+			" totalText",
+			".attr \"font-size\", '14px'",
+			".attr \"font-weight\", 'bold'",
+			"\"font-size\", '12px'",
+			"looptop+20",
+			"'stroke', 0",
+			"'stroke', 0 ",
+			" extracted: 577",
+			"r.",
+			"(percentage /100) * 40",
+			"totalBar",
+			"totalBar ",
+			"leftPercentage",
+			"looptop+17",
+			"ooptop+27",
+			"total",
+			"Total",
+			"total",
+			"Total",
+			"total",
+			"Total",
+			"total",
+			"700",
+			"Shadow",
+			"totalText",
+			"totalText ",
+			"label",
+			"45",
+			"hover",
+			"failedBar",
+			"processed",
+			"created",
+			"identified",
+			"failed",
+			"total",
+			"HEARTLAND BANK AND TRUST COMPANY",
+			"failed",
+			"processed",
+			"totalHeight",
+			"height",
+			"Height",
+			"height",
+			"Height",
+			"height",
+			"Height",
+			"height",
+			"Height",
+			"height",
+			"centerpoint ",
+			"containerHeight",
+			"otalheight",
+			"overallstats",
+			"overallstats ",
+			"containerheight",
+			"labelheight ",
+			"label =",
+			"label",
+			"(centerpoint + totalheight)",
+			")\n",
+			"centerpoint + totalheight",
+			"containerheight",
+			"containerheight ",
+			"then",
+			"centerpoint",
+			"15",
+			"raphael",
+			"rapheal",
+			",",
+			"date",
+			"@loan",
+			"seller",
+			"circle",
+			",",
+			"dates\"=>",
+			",",
+			"\"], ",
+			",",
+			"ceil",
+			"span4",
+			"::",
+			"collapse",
+			".stage-label",
+			",",
+			"error_message",
+			".medium",
+			"console.log",
+			"log",
+			",",
+			"perPage",
+			"perpage",
+			"file_browser-open",
+			"file",
+			"location",
+			".clickable-",
+			"clickable",
+			"-count.",
+			"failedCount"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/n",
+			"p",
+			"$(this)",
+			"this"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 224.0
+	},
+	"output.git":
+	{
+		"height": 23.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 98.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"uploads",
+				"app/assets/javascripts/uploads/uploads.js"
+			],
+			[
+				"color",
+				"app/assets/stylesheets/_colors.css.scss"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"index",
+				"app/views/dashboards/index.html.haml"
+			],
+			[
+				"style",
+				"app/assets/stylesheets/styles.css.scss"
+			],
+			[
+				"circle",
+				"app/assets/stylesheets/_circles.css.scss"
+			],
+			[
+				"failuerr",
+				"app/models/stats/failures_by_seller_servicer.rb"
+			],
+			[
+				"dacss",
+				"app/assets/stylesheets/_dashboard.css.scss"
+			],
+			[
+				"stats",
+				"app/models/stats.rb"
+			],
+			[
+				"",
+				"app/assets/templates/uploads/upload.html.haml"
+			],
+			[
+				"templatesupload",
+				"app/assets/templates/uploads/upload.html.haml"
+			],
+			[
+				"direc",
+				"app/assets/javascripts/uploads/app/upload_directives.js.coffee"
+			],
+			[
+				"uploadcss",
+				"app/assets/stylesheets/_uploads.css.scss"
+			],
+			[
+				"circles",
+				"app/assets/stylesheets/_circles.css.scss"
+			],
+			[
+				"uplindex",
+				"app/assets/templates/uploads/index.html.haml"
+			],
+			[
+				"dash",
+				"app/controllers/dashboards_controller.rb"
+			],
+			[
+				"styjs",
+				"app/assets/javascripts/styleguide.js.coffee"
+			],
+			[
+				"sty",
+				"app/assets/stylesheets/styleguide.css.scss"
+			],
+			[
+				"bubble",
+				"app/assets/templates/uploads/bubble.html.haml"
+			],
+			[
+				"cir",
+				"app/assets/stylesheets/_circles.css.scss"
+			],
+			[
+				"upload",
+				"app/assets/stylesheets/_uploads.css.scss"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"colo",
+				"app/assets/stylesheets/_colors.css.scss"
+			],
+			[
+				"dir",
+				"app/assets/javascripts/uploads/app/upload_directives.js.coffee"
+			],
+			[
+				"up",
+				"app/assets/stylesheets/_uploads.css.scss"
+			],
+			[
+				"uploads/in",
+				"app/views/uploads/index.html.haml"
+			],
+			[
+				"in",
+				"app/views/uploads/index.html.haml"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"new",
+				"app/views/uploads/new.html.haml"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"_up",
+				"app/assets/stylesheets/_uploads.css.scss"
+			],
+			[
+				"vi",
+				"app/assets/javascripts/uploads/view_model.js"
+			],
+			[
+				"view",
+				"app/assets/javascripts/uploads/view_model.js"
+			],
+			[
+				"upl",
+				"app/assets/javascripts/global/uploads.js"
+			],
+			[
+				"styles",
+				"app/assets/stylesheets/styles.css.scss"
+			],
+			[
+				"upcofee",
+				"app/assets/javascripts/uploads.js.coffee"
+			],
+			[
+				"uploa",
+				"app/assets/stylesheets/_uploads.css.scss"
+			],
+			[
+				"uploui",
+				"vendor/assets/javascripts/jquery-upload/jquery.fileupload-ui.js"
+			],
+			[
+				"uploadui",
+				"vendor/assets/javascripts/jquery-upload/jquery.fileupload-ui.js"
+			],
+			[
+				"uploadsjs",
+				"app/assets/javascripts/global/uploads.js"
+			],
+			[
+				"uplcoffe",
+				"app/assets/javascripts/uploads.js.coffee"
+			],
+			[
+				"upljs",
+				"app/assets/javascripts/global/uploads.js"
+			],
+			[
+				"uplaods",
+				"vendor/assets/javascripts/jquery-upload/support/load-image.min.js"
+			],
+			[
+				"button",
+				"app/assets/stylesheets/_buttons.css.scss"
+			],
+			[
+				"butt",
+				"app/assets/stylesheets/_buttons.css.scss"
+			],
+			[
+				"coffee",
+				"app/assets/javascripts/uploads.js.coffee.erb"
+			],
+			[
+				"respo",
+				"vendor/assets/stylesheets/bootstrap-responsive.css"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"a",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"app",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"styleguide",
+				"app/assets/stylesheets/styleguide.css.scss"
+			],
+			[
+				"appli",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"uplhtml",
+				"app/views/uploads/_upload_new_template.html"
+			],
+			[
+				"scaff",
+				"app/assets/stylesheets/scaffolds.css.scss"
+			],
+			[
+				"appl",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"_form",
+				"app/views/styleguide/_forms-structure.html.haml"
+			],
+			[
+				"form",
+				"app/views/dashboards/_form.html.haml"
+			],
+			[
+				"links",
+				"app/assets/stylesheets/_links.css.scss"
+			],
+			[
+				"styl",
+				"app/assets/javascripts/styleguide.js.coffee.erb"
+			],
+			[
+				"cscc",
+				"tmp/cache/sass/7bf373034478a8cd84b4e104d7246b5194bed1eb/styles.css.scssc"
+			],
+			[
+				"styleguidehtm",
+				"app/views/styleguide/index.html.haml"
+			],
+			[
+				"resq",
+				"lib/capistrano_resque_integration.rb"
+			],
+			[
+				"check",
+				"app/views/styleguide/_forms-checkbox.html.haml"
+			],
+			[
+				"rad",
+				"app/views/styleguide/_forms-radio.html.haml"
+			],
+			[
+				"de",
+				"app/views/styleguide/_dependencies.html.haml"
+			],
+			[
+				"layout",
+				"app/views/layouts/application-responsive.html.haml"
+			],
+			[
+				"info",
+				"app/views/auth/dashboard/_infographics.html.haml"
+			],
+			[
+				"auth",
+				"app/assets/stylesheets/auth.css.scss"
+			],
+			[
+				"convhelp",
+				"app/helpers/auth/conversation_helper.rb"
+			],
+			[
+				"con",
+				"app/assets/javascripts/auth/conversation.js.coffee"
+			],
+			[
+				"convers",
+				"app/assets/javascripts/conversation.js.coffee"
+			],
+			[
+				"dashin",
+				"app/views/auth/dashboard/index.html.haml"
+			],
+			[
+				"conversationhelper",
+				"app/helpers/auth/conversation_helper.rb"
+			],
+			[
+				"conversation",
+				"app/views/auth/conversation/index.html.haml"
+			],
+			[
+				"boots",
+				"vendor/assets/stylesheets/bootstrap.css"
+			],
+			[
+				"conver",
+				"app/assets/javascripts/auth/conversation.js.coffee"
+			],
+			[
+				"simple",
+				"app/views/auth/conversation/_simple_search.html.haml"
+			],
+			[
+				"messages",
+				"app/assets/stylesheets/_messages.css.scss"
+			],
+			[
+				"sear",
+				"app/assets/stylesheets/_search.css.scss"
+			],
+			[
+				"conversations",
+				"app/assets/javascripts/auth/conversation.js.coffee"
+			],
+			[
+				"conversat",
+				"tmp/cache/sass/5c9d9b6df8bf1e5fcfa195fbd217912ab5267d12/conversation.css.scssc"
+			],
+			[
+				"market",
+				"app/views/auth/dashboard/_market_info.html.haml"
+			],
+			[
+				"convera",
+				"app/assets/stylesheets/conversation.css.scss"
+			],
+			[
+				"message",
+				"app/assets/javascripts/auth/messages.js.coffee.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/chad/Documents/FMISandbox.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,56 @@
+.row-fluid
+  .span12
+    .row-fluid
+      .span6
+        = form_tag("/styleguide", :id => "basicform-inputs") do
+          %h3 Text Input
+          = label_tag 'first_name' do
+            First Name
+          = text_field_tag 'first_name'
+          = label_tag 'last_name' do
+            Last Name
+          = text_field_tag 'last_name'
+      .span6
+        .row-fluid.code-row
+          .span12
+            .row-fluid
+              .span8
+                %h3 HTML
+              .span4
+                .pull-right.show-code-toggle.positive-action{:data => {:toggle => "collapse", :target => "#form-text-input_html"}}
+                  %i.icon.icon-eye-open
+                  Show Code 
+            .row-fluid
+              #form-text-input_html.code-collapse.in.span12  
+                %pre
+                  = preserve do
+                    :escaped
+                      <label for="first_name">
+                        First Name
+                      </label>
+                      <input type="text" name="first_name" id="first_name">
+                      <label for="last_name">
+                        Last Name
+                      </label>
+                      <input id="last_name" name="last_name" type="text">
+
+        .row-fluid.code-row
+          .span12
+            .row-fluid
+              .span8
+                %h3 Haml
+              .span4
+                .pull-right.show-code-toggle.positive-action{:data => {:toggle => "collapse", :target => "#form-text-input_haml"}}
+                  %i.icon.icon-eye-open
+                  Show Code 
+            .row-fluid
+              #form-text-input_haml.code-collapse.in.span12 
+                %pre
+                  = preserve do
+                    :escaped
+                      = label_tag 'first_name' do
+                        First Name
+                      = text_field_tag 'first_name'
+                      = label_tag 'last_name' do
+                        Last Name
+                      = text_field_tag 'last_name'                           

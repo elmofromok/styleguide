@@ -1,0 +1,74 @@
+.row-fluid
+  .span12
+    .row-fluid
+      .span6
+        = form_tag("/styleguide", :id => "basicform-structure") do
+          %h3 Basic Structure
+          = field_set_tag "Your Name" do
+            = label_tag 'first_name' do
+              First Name
+            = text_field_tag 'first_name'
+          .form-actions
+            = submit_tag 'Submit', :class => 'btn positive-action'
+            = button_tag(:class => 'btn negative-action') do
+              Cancel
+      .span6
+        .row-fluid.code-row
+          .span12
+            .row-fluid
+              .span8
+                %h3 HTML
+              .span4
+                .pull-right.show-code-toggle.positive-action{:data => {:toggle => "collapse", :target => "#form-structure_html"}}
+                  %i.icon.icon-eye-open
+                  Show Code 
+            .row-fluid
+              #form-structure_html.code-collapse.in.span12
+                %pre
+                  = preserve do
+                    :escaped
+                      <form accept-charset="UTF-8" action="/styleguide" id="basicform-structure" method="post">
+                        <div style="margin:0;padding:0;display:inline">
+                          <input name="utf8" type="hidden" value="✓">
+                          <input name="authenticity_token" type="hidden" value="PHo3UyJ/5JHPRxGcGrTzdCTkOfv92kxbvBloT47rIpI=">
+                        </div>
+                        <h3>Basic Structure</h3>
+                        <fieldset>
+                          <legend>Your Name</legend>
+                          <label for="first_name">
+                            First Name
+                          </label>
+                          <input id="first_name" name="first_name" type="text">
+                        </fieldset>
+                        <div class="form-actions">
+                          <input class="btn positive-action" name="commit" type="submit" value="Submit">
+                          <button class="btn negative-action">
+                            Cancel
+                          </button>
+                        </div>
+                      </form>
+        .row-fluid.code-row
+          .span12
+            .row-fluid
+              .span8
+                %h3 Haml
+              .span4
+                .pull-right.show-code-toggle.positive-action{:data => {:toggle => "collapse", :target => "#form-structure_haml"}}
+                  %i.icon.icon-eye-open
+                  Show Code 
+            .row-fluid
+              #form-structure_haml.code-collapse.in.span12
+                %pre
+                  = preserve do
+                    :escaped
+                      = form_tag("/styleguide", :id => "basicform") do
+                        %h3 Basic Structure
+                        = field_set_tag "Your Name" do
+                          = label_tag 'first_name' do
+                            First Name
+                          = text_field_tag 'first_name'
+                        .form-actions
+                          = submit_tag 'Submit', :class => 'btn positive-action'
+                          = button_tag(:class => 'btn negative-action') do
+                            Cancel 
+                        

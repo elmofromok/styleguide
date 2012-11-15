@@ -1,0 +1,92 @@
+// Place all the styles related to the styleguide controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+@import "colors"; // all color variables will be defined here.
+
+.subnav-fixed {
+    position:fixed;
+    width:100%;
+    left:0;
+    top:0;
+    background:#eee;
+    z-index:1001;
+    .container{
+      margin:auto;
+      padding:0;
+      .nav {
+          margin:0;
+      }
+    }
+  }
+  .back-to-top{
+    font-size: 12px;
+  }
+  .row-fluid.code-row [class*="span"] {
+    min-height: 0px;
+  }
+
+  pre,code {
+    background: $text;
+    color:$textOnDark;
+  }
+  .code-collapse {
+    padding:1px;
+    margin-bottom:10px;
+  }
+  .sg-section{
+    position:relative;
+    .sg-section-title {
+      font-size:2em;
+      line-height:2.2em;
+    }
+    .well >h2{
+      font-size:1.8em;
+      line-height:1.8em;
+    }
+  }
+  .sg-section>.row {
+    margin-bottom: 10px;
+    border-bottom:1px solid #e1e0ff;
+    &:last-of-type{
+      border-bottom:2px solid #a1a1a1;
+    }
+  }
+.note {
+  position:relative;
+  padding:15px;
+  margin:0 0 2em 0;
+  color:$textOnDark;
+  background:$sectionBGDarkened;
+  /* css3 */
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  font-size:14px;
+  line-height:24px;
+  a{
+    color:darken($textOnDark,20%);
+    &:hover{
+      color:lighten($textOnDark,10%);
+      text-decoration:underline;
+    }
+  }
+  &:after {
+    content:"";
+    position:absolute;
+    top:-30px;
+    left:50px;
+    border:15px solid transparent;
+    border-bottom-color:$sectionBGDarkened;
+      /* reduce the damage in FF3.0 */
+      display:block; 
+      width:0;
+  }
+  &.left:after{
+    top:40%;
+    left:-30px;
+    border-right-color:$sectionBGDarkened;
+    border-bottom-color:transparent;
+  }
+}

@@ -1,0 +1,81 @@
+/*****************************/
+/* BUTTONS AND ICONS ********/
+
+[class^="icon-"],
+[class*=" icon-"] {
+  background-image: url(image_path("glyphicons-halflings.png"));
+  margin-top:-2px;
+}
+.icon-white {
+  background-image: url(image_path("glyphicons-halflings-white.png"));
+}
+.btn, button{
+  margin:10px;
+  padding:4px 10px;
+  border:none;
+  border-color:transparent;
+  @include border-radius(4px, 4px);
+  background-color:$buttonBG;
+  background-image: none;
+  @include single-text-shadow( darken($gray,20%),1px,1px,2px);
+  line-height:18px;
+  font-size:14px;
+  white-space:normal;
+  color:$buttonText;
+  &.positive-action {
+    color:$buttonText;
+    background-color:$positive-action-color;
+    &:hover {
+      background-color:$positive-action-color_hover;
+    }
+  }
+  &.negative-action {
+    color:$buttonText;
+    background-color:$negative-action-color;
+    &:hover {
+      background-color:$negative-action-color_hover;
+    }
+  }
+  // &.neutral-action {
+  //   color:$buttonText;
+  //   background-color:$neutral-action-color;
+  //   &:hover {
+  //     background-color:$neutral-action-color_hover;
+  //   }
+  // }
+  &:hover {
+    background-color:$buttonBG_hover;
+  }
+  &.inline-button{
+    padding:2px 5px;
+    margin:0 2px;
+    font-size:12px;
+
+  }
+}
+
+//UI Buttons 
+.toggle-size-button{
+
+}
+
+.text-icon{
+  font-size:30px;
+  font-weight:bold;
+}
+
+ .circle-icons{
+  width:30px;
+  height:30px;
+  line-height:25px;
+  font-size:16px;
+  display:inline-block;
+  background: url(image_path('sprite-stages.gif')) no-repeat -26px -3px;
+
+  [class^="icon-"],
+  [class*=" icon-"] {
+    margin-top:0px;
+    margin-left:9px;
+  }
+
+}

@@ -1,0 +1,68 @@
+.row-fluid
+  .span12
+    .row-fluid
+      .span6
+        = form_tag("/styleguide", :id => "basicform-checkboxs") do
+          %h3 Checkbox inputs
+          = field_set_tag "Do you agree to our very complicated and legal eula?",:class => 'form-row' do
+            = label_tag 'complicated-eula', :class => 'checkbox' do
+              = check_box_tag 'complicated-eula', 'accepted', false
+              I agree to your very complicated and legal EULA.
+            = label_tag 'disabled', :class => 'form-row disabled' do
+              = check_box_tag 'disabled', 'disabled', false, :disabled => true
+              This checkbox is disabled.
+      .span6
+        .row-fluid.code-row
+          .span12
+            .row-fluid
+              .span8
+                %h3 HTML
+              .span4
+                .pull-right.show-code-toggle.positive-action{:data => {:toggle => "collapse", :target => "#form-checkbox-input_html"}}
+                  %i.icon.icon-eye-open
+                  Show Code 
+            .row-fluid
+              #form-checkbox-input_html.code-collapse.in.span12 
+                %pre
+                  = preserve do
+                    :escaped
+                      <fieldset class="form-row">
+                        <legend>Do you agree to our very complicated and legal eula?</legend>
+                        <label for="complicated-eula" class="checkbox">
+                          <div class="checker" id="uniform-complicated-eula">
+                            <span class="">
+                              <input type="checkbox" value="accepted" name="complicated-eula" id="complicated-eula" style="opacity: 0;">
+                            </span>
+                          </div>
+                          I agree to your very complicated and legal EULA.
+                        </label>
+                        <label for="disabled" class="form-row disabled">
+                          <div class="checker disabled" id="uniform-disabled">
+                            <span>
+                              <input type="checkbox" value="disabled" name="disabled" id="disabled" disabled="disabled" style="opacity: 0;">
+                            </span>
+                          </div>
+                          This checkbox is disabled.
+                        </label>
+                      </fieldset>
+        .row-fluid.code-row
+          .span12
+            .row-fluid
+              .span8
+                %h3 Haml
+              .span4
+                .pull-right.show-code-toggle.positive-action{:data => {:toggle => "collapse", :target => "#form-checkbox-input_haml"}}
+                  %i.icon.icon-eye-open
+                  Show Code 
+            .row-fluid
+              #form-checkbox-input_haml.code-collapse.in.span12  
+                %pre
+                  = preserve do
+                    :escaped
+                      = field_set_tag "Do you agree to our very complicated and legal eula?",:class => 'form-row' do
+                        = label_tag 'complicated-eula', :class => 'checkbox' do
+                          = check_box_tag 'complicated-eula', 'accepted', false
+                          I agree to your very complicated and legal EULA.
+                        = label_tag 'disabled', :class => 'form-row disabled' do
+                          = check_box_tag 'disabled', 'disabled', false, :disabled => true
+                          This checkbox is disabled.

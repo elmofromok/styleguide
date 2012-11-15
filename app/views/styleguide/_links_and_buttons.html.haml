@@ -1,0 +1,149 @@
+%section.sg-section
+  %header
+    %h1.sg-section-title Links and Buttons
+    %p 
+      All hypertext links and all buttons, including those used in forms.
+      %em  See Also: 
+      = link_to "Twitter Bootstrap > #buttons", "http://twitter.github.com/bootstrap/base-css.html#buttons"
+  .row-fluid
+    .span12
+      %table.table.well
+        %tr
+          %td
+            Normal Hyperlink
+          %td
+            = link_to "a Hyperlink to Somewhere", "http://twitter.github.com/bootstrap/"
+          %td
+            %code
+              &lt;a href="" &gt;...
+        %tr  
+          %td
+            Positive Action Hyperlink ( .positive-action ) 
+          %td
+            = link_to "a Hyperlink to Somewhere", "http://twitter.github.com/bootstrap/", class: "positive-action"
+          %td
+            %code
+              &lt;a class="positive-action" href="" &gt;... 
+        / %tr    
+        /   %td
+        /     Neutral Action Hyperlink ( .neutral-action )
+        /   %td
+        /     = link_to "a Hyperlink to Somewhere", "http://twitter.github.com/bootstrap/", class: "neutral-action"
+        /   %td
+        /     %code
+        /       &lt;a class="neutral-action" href="" &gt;... 
+        %tr
+          %td
+            Negative Action Hyperlink ( .negative-action ) 
+          %td
+            = link_to "a Hyperlink to Somewhere", "http://twitter.github.com/bootstrap/", class: "negative-action"
+          %td
+            %code
+              &lt;a class="negative-action" href="" &gt;...
+        %tr
+          %td
+            Normal Hyperlink as a button
+          %td
+            = link_to "Submit", "http://twitter.github.com/bootstrap/", class: "btn"
+          %td
+            %code
+              &lt;a class="btn" href="" &gt;...
+        %tr
+          %td
+            Normal Hyperlink as a small button
+          %td
+            = link_to "Submit", "http://twitter.github.com/bootstrap/", class: "btn btn-small"
+          %td
+            %code
+              &lt;a class="btn btn-small" href="" &gt;...      
+        %tr  
+          %td
+            Positive Action Hyperlink as a button ( .positive-action ) 
+          %td
+            = link_to "Submit", "http://twitter.github.com/bootstrap/", class: "btn positive-action"
+          %td
+            %code
+              &lt;a class="btn positive-action" href="" &gt;... 
+        / %tr    
+        /   %td
+        /     Neutral Action Hyperlink as a button ( .neutral-action )
+        /   %td
+        /     = link_to "Submit", "http://twitter.github.com/bootstrap/", class: "btn neutral-action"
+        /   %td
+        /     %code
+        /       &lt;a class="btn neutral-action" href="" &gt;... 
+        %tr
+          %td
+            Negative Action Hyperlink as a button ( .negative-action ) 
+          %td
+            = link_to "Submit", "http://twitter.github.com/bootstrap/", class: "btn  negative-action"
+          %td
+            %code
+              &lt;a class="btn negative-action" href="" &gt;...
+        %tr
+          %td
+            Normal button
+          %td
+            %button Submit
+          %td
+            %code
+              &lt;button&gt; ... &lt;/  button&gt;
+        %tr  
+          %td
+            Positive Action button ( .positive-action ) 
+          %td
+            %button.positive-action Submit
+          %td
+            %code
+              &lt;button class="positive-action" &gt; ... &lt;/  button&gt; 
+        / %tr    
+        /   %td
+        /     Neutral Action button ( .neutral-action )
+        /   %td
+        /     %button.neutral-action Submit
+        /   %td
+        /     %code
+        /       &lt;button class="neutral-action" &gt; ... &lt;/  button&gt;
+        %tr
+          %td
+            Negative Action button ( .negative-action ) 
+          %td
+            %button.negative-action Submit
+          %td
+            %code
+              &lt;button class="negative-action" &gt; ... &lt;/  button&gt; 
+
+        %tr
+          %td
+            A Pointer Up hyperlink  (.pointer.up ) 
+          %td
+            = link_to "Back To Top", "http://twitter.github.com/bootstrap/", class: "pointer up"
+          %td
+            %code
+              &lt;a class="pointer up" href="" &gt;...     
+        %tr
+          %td
+            A Pointer Right hyperlink  (.pointer.right ) 
+          %td
+            = link_to "View All", "http://twitter.github.com/bootstrap/", class: "pointer right"
+          %td
+            %code
+              &lt;a class="pointer right" href="" &gt;...
+        %tr
+          %td
+            A Pointer Down hyperlink (.pointer.down ) 
+          %td
+            = link_to "Menu", "http://twitter.github.com/bootstrap/", class: "pointer down"
+          %td
+            %code
+              &lt;a class="pointer down" href="" &gt;...  
+
+        %tr
+          %td
+            A Pointer Left hyperlink (.pointer.left ) 
+          %td
+            = link_to "Back", "http://twitter.github.com/bootstrap/", class: "pointer left"
+          %td
+            %code
+              &lt;a class="pointer left" href="" &gt;...        
+  %footer

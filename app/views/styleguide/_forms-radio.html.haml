@@ -1,0 +1,144 @@
+.row-fluid
+  .span12
+    .row-fluid
+      .span6
+        = form_tag("/styleguide", :id => "basicform-selects") do
+          %h3 Radio inputs
+          = field_set_tag 'How often would you like to receive our newsletter?', :class => 'form-row' do
+            = label_tag 'receive_email_freq_weekly', :class => 'radio' do
+              = radio_button_tag 'receive_email_freq','weekly'
+              Weekly
+            = label_tag 'receive_email_freq_daily', :class => 'radio' do
+              = radio_button_tag 'receive_email_freq','daily'
+              Daily
+            = label_tag 'receive_email_never', :class => 'radio' do
+              = radio_button_tag 'receive_email_freq','never', true
+              Never
+          = field_set_tag 'What size shirt would you like?', :class => 'form-row' do
+            = label_tag 'shirt_size_small', :class => "radio inline" do
+              = radio_button_tag 'shirt_size', "small"
+              SM
+            = label_tag 'shirt_size_large', :class => "radio inline" do
+              = radio_button_tag 'shirt_size', "large" 
+              L
+            = label_tag 'shirt_size_extra_large', :class => "radio inline" do
+              = radio_button_tag 'shirt_size', "extra_large",true
+              XL
+            = label_tag 'shirt_size_extra_extra_large', :class => "radio inline" do
+              = radio_button_tag 'shirt_size', "extra_extra_large"       
+              XXL
+      .span6
+        .row-fluid.code-row
+          .span12
+            .row-fluid
+              .span8
+                %h3 HTML
+              .span4
+                .pull-right.show-code-toggle.positive-action{:data => {:toggle => "collapse", :target => "#form-radio-input_html"}}
+                  %i.icon.icon-eye-open
+                  Show Code 
+            .row-fluid
+              #form-radio-input_html.code-collapse.in.span12  
+                %pre
+                  = preserve do
+                    :escaped
+                      <fieldset class="form-row">
+                        <legend>How often would you like to receive our newsletter?</legend>
+                        <label for="receive_email_freq_weekly" class="radio">
+                          <div class="radio" id="uniform-receive_email_freq_weekly">
+                            <span>
+                              <input type="radio" value="weekly" name="receive_email_freq" id="receive_email_freq_weekly" style="opacity: 0;">
+                            </span>
+                          </div>
+                          Weekly
+                        </label>
+                        <label for="receive_email_freq_daily" class="radio">
+                          <div class="radio" id="uniform-receive_email_freq_daily">
+                            <span>
+                              <input type="radio" value="daily" name="receive_email_freq" id="receive_email_freq_daily" style="opacity: 0;">
+                            </span>
+                          </div>
+                          Daily
+                        </label>
+                        <label for="receive_email_never" class="radio">
+                          <div class="radio" id="uniform-receive_email_never">
+                            <span class="checked">
+                              <input type="radio" value="never" name="receive_email" id="receive_email_never" checked="checked" style="opacity: 0;">
+                            </span>
+                          </div>
+                          Never
+                        </label>
+                      </fieldset>
+                      <fieldset class="form-row">
+                        <legend>What size shirt would you like?</legend>
+                        <label for="shirt_size_small" class="radio inline">
+                          <div class="radio" id="uniform-shirt_size_small">
+                            <span>
+                              <input type="radio" value="small" name="shirt_size" id="shirt_size_small" style="opacity: 0;">
+                            </span>
+                          </div>
+                          SM
+                        </label>
+                        <label for="shirt_size_large" class="radio inline">
+                          <div class="radio" id="uniform-shirt_size_large">
+                            <span>
+                              <input type="radio" value="large" name="shirt_size" id="shirt_size_large" style="opacity: 0;">
+                            </span>
+                          </div>
+                          L
+                        </label>
+                        <label for="shirt_size_extra_large" class="radio inline">
+                          <div class="radio" id="uniform-shirt_size_extra_large">
+                            <span class="checked">
+                              <input type="radio" value="extra_large" name="shirt_size" id="shirt_size_extra_large" checked="checked" style="opacity: 0;">
+                            </span>
+                          </div>
+                          XL
+                        </label>
+                        <label for="shirt_size_extra_extra_large" class="radio inline">
+                          <div class="radio" id="uniform-shirt_size_extra_extra_large">
+                            <span>
+                              <input type="radio" value="extra_extra_large" name="shirt_size" id="shirt_size_extra_extra_large" style="opacity: 0;">
+                            </span>
+                          </div>
+                          XXL
+                        </label>
+                      </fieldset>
+        .row-fluid.code-row
+          .span12
+            .row-fluid
+              .span8
+                %h3 Haml
+              .span4
+                .pull-right.show-code-toggle.positive-action{:data => {:toggle => "collapse", :target => "#form-radio-input_haml"}}
+                  %i.icon.icon-eye-open
+                  Show Code 
+            .row-fluid
+              #form-radio-input_haml.code-collapse.in.span12  
+                %pre
+                  = preserve do
+                    :escaped
+                      = field_set_tag 'How often would you like to receive our newsletter?', :class => 'form-row' do
+                        = label_tag 'receive_email_freq_weekly', :class => 'radio' do
+                          = radio_button_tag 'receive_email_freq','weekly'
+                          Weekly
+                        = label_tag 'receive_email_freq_daily', :class => 'radio' do
+                          = radio_button_tag 'receive_email_freq','daily'
+                          Daily
+                        = label_tag 'receive_email_never', :class => 'radio' do
+                          = radio_button_tag 'receive_email','never', true
+                          Never
+                      = field_set_tag 'What size shirt would you like?', :class => 'form-row' do
+                        = label_tag 'shirt_size_small', :class => "radio inline" do
+                          = radio_button_tag 'shirt_size', "small"
+                          SM
+                        = label_tag 'shirt_size_large', :class => "radio inline" do
+                          = radio_button_tag 'shirt_size', "large" 
+                          L
+                        = label_tag 'shirt_size_extra_large', :class => "radio inline" do
+                          = radio_button_tag 'shirt_size', "extra_large",true
+                          XL
+                        = label_tag 'shirt_size_extra_extra_large', :class => "radio inline" do
+                          = radio_button_tag 'shirt_size', "extra_extra_large"       
+                          XXL
+                        

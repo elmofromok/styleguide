@@ -1,0 +1,23 @@
+-# This file will be used to build out the styles for the fmi upload application
+
+- content_for :page_title do
+  Styleguide [Adfitech Rebuild]
+.row-fluid  
+  .span12
+    %section#sg-toc.well
+      %header
+        %h1 Adfitech Rebuild Styleguide and UI Sandbox
+        %nav#sg-subnav.subnav
+          .container
+            %ul.nav.nav-pills#sg-toc-list 
+              -# filled via javascript dynamically based on whats added below with a 'sg-section-title' class
+      %footer
+    = render 'dependencies'
+    = render 'typography' 
+    = render 'links_and_buttons'   
+    = render 'forms'
+
+
+
+/ = javascript_include_tag params[:controller]
+= stylesheet_link_tag params[:controller]   

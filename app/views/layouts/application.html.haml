@@ -1,0 +1,18 @@
+!!!
+%html(lang="en")
+  %head
+    %title= content_for(:page_title)
+    =csrf_meta_tags
+    
+    =stylesheet_link_tag  'application', :media => "all"
+    =javascript_include_tag 'application'
+
+
+  %body
+    .row_fluid
+      .brand
+        =link_to(root_path) do
+          %span Adfitech Rebuild
+          
+    .container-fluid
+      =yield

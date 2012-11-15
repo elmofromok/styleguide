@@ -1,0 +1,88 @@
+.row-fluid
+  .span12
+    .row-fluid
+      .span6
+        = form_tag("/styleguide", :id => "basicform-selects") do
+          %h3 Select inputs
+          .row-fluid
+            .span12
+              = label_tag 'car3' do
+                What is your Favorite Car?
+              = select_tag "car3", "<option>Corvette</option><option>Honda</option><option>Batmobile</option>".html_safe
+          .row-fluid.form-row
+            .span12
+              = label_tag 'fruit2' do
+                Favorite Fruit
+              = select_tag "fruit2", "<option>Cherry</option><option>Banana</option><option>Blueberry</option>".html_safe,{:data =>{:duplicateable => true,"duplicateable-count" => 1, "duplicateable-item" => 'favorite fruit'}}
+          
+      .span6
+        .row-fluid.code-row
+          .span12
+            .row-fluid
+              .span8
+                %h3 HTML
+              .span4
+                .pull-right.show-code-toggle.positive-action{:data => {:toggle => "collapse", :target => "#form-select-input_html"}}
+                  %i.icon.icon-eye-open
+                  Show Code 
+            .row-fluid
+              #form-select-input_html.code-collapse.in.span12  
+                %pre
+                  = preserve do
+                    :escaped
+                      <div class="row">
+                        <div class="span3">
+                          <label for="car">
+                            What is your Favorite Car?
+                          </label>
+                          <div class="selector" id="uniform-car">
+                            <span style="-moz-user-select: none;">Corvette</span>
+                            <select name="car" id="car" style="opacity: 0;">
+                              <option>Corvette</option>
+                              <option>Honda</option>
+                              <option>Batmobile</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row form-row">
+                        <div class="span3">
+                          <label for="fruit" style="position: relative;">
+                            <a style="left: 210px;" data-original-title="Add another favorite fruit" class="duplicateable-add-link" data-for="fruit" rel="tooltip">+</a>
+                            Favorite Fruit
+                          </label>
+                          <div class="selector" id="uniform-fruit">
+                            <span style="-moz-user-select: none;">Cherry</span>
+                            <select name="fruit" id="fruit" data-duplicateable="true" data-duplicateable-item="favorite fruit" data-duplicateable-count="1" class="span3" style="opacity: 0;">
+                              <option>Cherry</option>
+                              <option>Banana</option>
+                              <option>Blueberry</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+        .row-fluid.code-row
+          .span12
+            .row-fluid
+              .span8
+                %h3 Haml
+              .span4
+                .pull-right.show-code-toggle.positive-action{:data => {:toggle => "collapse", :target => "#form-select-input_haml"}}
+                  %i.icon.icon-eye-open
+                  Show Code 
+            .row-fluid
+              #form-select-input_haml.code-collapse.in.span12  
+                %pre
+                  = preserve do
+                    :escaped
+                      .row-fluid
+                        .span12
+                          = label_tag 'car' do
+                            What is your Favorite Car?
+                          = select_tag "car", "<option>Corvette</option><option>Honda</option><option>Batmobile</option>".html_safe
+                      .row-fluid.form-row
+                        .span12
+                          = label_tag 'fruit' do
+                            Favorite Fruit
+                          = select_tag "fruit", "<option>Cherry</option><option>Banana</option><option>Blueberry</option>".html_safe,{:data =>{:duplicateable => true,"duplicateable-count" => 1, "duplicateable-item" => 'favorite fruit'}}
+                        
